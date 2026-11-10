@@ -7,7 +7,7 @@ public:
 
         int start1 = a[0][0];
         int end1 = a[0][1];
-        for(int i=0; i<a.size(); i++){
+        for(int i=1; i<a.size(); i++){
             int start2 = a[i][0];
             int end2 = a[i][1];
             
